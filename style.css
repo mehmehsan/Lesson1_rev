@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+
+:root {
+    --primary-color : #FFC9FF;
+
+}
+
+body{
+    background-color: var(--primary-color);
+
+    font-family: 'Quicksand';
+  
+}
+
+.navig {
+background-color: white;
+padding: 0.5rem 3rem;
+border-bottom-left-radius: 3rem ;
+border-top-right-radius: 3rem;
+display: block;
+height: 8rem;
+}
+
+.navig .navig-style{
+    float: right;
+    list-style: none;
+    text-decoration: none;
+
+}
+
+.navig .navig-style .item-inline{
+    padding: 0rem .5rem;
+    display: inline;
+}
+
+.navig .navig-style .link{
+    text-decoration: none;
+
+}
+
+.head{
+    text-align: center;
+}
