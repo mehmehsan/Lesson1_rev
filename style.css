@@ -107,8 +107,8 @@ height: 9rem;
 }
 
 #btn-pressed{
-    margin-left: 2rem; 
-    margin-top: 3rem;
+    margin-left: 1rem; 
+    margin-top: 1rem;
     padding: 1rem 1rem;
     background-color: var(--syntax-text-color);
     font-family: 'Quicksand';
@@ -119,7 +119,7 @@ height: 9rem;
 
 #selectBox{
     margin-left: 2rem; 
-    margin-top: 3rem;
+    margin-top: 2rem;
     padding: 1rem 1rem;
     font-family: 'Quicksand';
     font-size: 1rem;
@@ -129,7 +129,7 @@ height: 9rem;
 
 #myDate{
     margin-left: 2rem; 
-    margin-top: 3rem;
+    margin-top: 2rem;
     padding: 1rem 1rem;
     font-family: 'Quicksand';
     font-size: 1rem;
