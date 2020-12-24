@@ -6,6 +6,10 @@
     --secondary-color :
     #E8E8E8;
 
+    --syntax-background-color: #08090a;
+
+    --syntax-text-color: #f8f8f2;
+
 }
 
 body{
@@ -90,7 +94,7 @@ height: 9rem;
    
 }
 
-.txtarea{
+#txtarea{
     display: block;
     width: 85%;
     height: 15vh;
@@ -111,4 +115,40 @@ height: 9rem;
     font-size: 1rem;
     border: solid white .25rem;
 
+}
+h2{
+    font-family: 'Quicksand';
+    margin-left: 2rem;
+}
+
+#output{
+    border: dotted black .3rem;
+    height: 15vh;
+    max-width: 85%;
+    background-color: var(--secondary-color);
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2rem;
+    padding: 1rem 1rem;
+}
+
+code {
+    background: rgba(0,0,0,0.1);
+    color: var(--color-body-color);
+    border-radius: var(--radius);
+    max-width: 100%;
+    font-size: 80%;
+    padding: 0.1em 0.25em;
+}
+
+.highlight {
+    background: var(--syntax-background-color);
+    color: var(--syntax-text-color);
+}
+
+pre {
+    display: block;
+    font-family: monospace;
+    white-space: pre;
+    margin: 1em 0px;
 }
