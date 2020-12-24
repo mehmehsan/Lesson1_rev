@@ -12,15 +12,15 @@ function eventHandler(){
     if(option.value=="leap"){
 
     if(year%4==0) {
-        Outputtxt.innerText = Datetxt.value + " : Your year is a leap year ";
+        Outputtxt.innerText = Datetxt.value + " : Your birthyear is a leap year ";
     }
     else {
-        Outputtxt.innerText = Datetxt.value + " : Your year is not a leap year ";
+        Outputtxt.innerText = Datetxt.value + " : Your birthyear is not a leap year ";
     }
     }
 
     else{
-        Outputtxt.innerText = "Check prime no.";
+       
         var cnt = false;
          for( var i=2; i <20 ; i++ ){
              if (i!=day){
@@ -34,10 +34,10 @@ function eventHandler(){
         
          }
          if(cnt==true) {
-             Outputtxt.innerText = Datetxt.value + " : is not prime number";
+             Outputtxt.innerText = Datetxt.value + " : Your birthday is not prime number";
          }
          else{
-            Outputtxt.innerText = Datetxt.value + " : is a prime number";
+            Outputtxt.innerText = Datetxt.value + " : Your birthday is a prime number";
          }
     }
 
