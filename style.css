@@ -3,6 +3,9 @@
 :root {
     --primary-color : #FFC9FF;
 
+    --secondary-color :
+    #E8E8E8;
+
 }
 
 body{
@@ -85,4 +88,27 @@ height: 9rem;
     background-color: var(--primary-color);
 
    
+}
+
+.txtarea{
+    display: block;
+    width: 85%;
+    height: 15vh;
+    padding: 1rem 1rem;
+  margin-top: 2rem;
+  margin-left: auto;
+  margin-right: auto;
+    border: solid var(--primary-color) .3rem;
+    border-style: dotted;
+}
+
+#btn-pressed{
+    margin-left: 2rem; 
+    margin-top: 3rem;
+    padding: 1rem 1rem;
+    background-color: var(--secondary-color);
+    font-family: 'Quicksand';
+    font-size: 1rem;
+    border: solid white .25rem;
+
 }
