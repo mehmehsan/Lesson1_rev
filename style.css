@@ -110,12 +110,33 @@ height: 9rem;
     margin-left: 2rem; 
     margin-top: 3rem;
     padding: 1rem 1rem;
-    background-color: var(--secondary-color);
+    background-color: var(--syntax-text-color);
     font-family: 'Quicksand';
     font-size: 1rem;
     border: solid white .25rem;
 
 }
+
+#selectBox{
+    margin-left: 2rem; 
+    margin-top: 3rem;
+    padding: 1rem 1rem;
+    font-family: 'Quicksand';
+    font-size: 1rem;
+    border: solid white .25rem;
+    background-color: var(--secondary-color);
+}
+
+#myDate{
+    margin-left: 2rem; 
+    margin-top: 3rem;
+    padding: 1rem 1rem;
+    font-family: 'Quicksand';
+    font-size: 1rem;
+    border: solid white .25rem;
+    background-color: var(--secondary-color);
+}
+
 h2{
     font-family: 'Quicksand';
     margin-left: 2rem;
