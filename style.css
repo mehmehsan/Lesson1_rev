@@ -108,7 +108,7 @@ height: 9rem;
 }
 
 #btn-pressed{
-    margin-left: 1rem; 
+    margin-left: .3rem; 
     margin-top: 1rem;
     padding: 1rem 1rem;
     background-color: var(--syntax-text-color);
