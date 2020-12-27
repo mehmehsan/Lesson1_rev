@@ -6,9 +6,9 @@ var outputDiv = document.querySelector("#OutputStr");
 function clickHandler() {
    
     var a = outputDiv.innerText;
-a = document.createTextNode(star);
+var b = document.createTextNode(star);
 
-document.body.appendChild(a);
+document.body.appendChild(b);
 
 
 };
