@@ -95,15 +95,17 @@ height: 9rem;
 }
 
 #txtarea{
-    display: block;
-    width: 85%;
-    height: 15vh;
+    border: dotted var(--secondary-color) .35rem;
+    max-width: 85%;
+    margin: auto;
     padding: 1rem 1rem;
-  margin-top: 2rem;
-  margin-left: auto;
-  margin-right: auto;
-    border: solid var(--primary-color) .3rem;
-    border-style: dotted;
+    background-image:url("undraw.svg");
+    height: 15rem;
+    background-size: cover;
+    position: relative; 
+    background-position: center;
+    background-size: 15rem 15rem; 
+    background-repeat: no-repeat;
 }
 
 #btn-pressed{
