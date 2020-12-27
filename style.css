@@ -145,7 +145,7 @@ h2{
 
 #output{
     border: dotted black .3rem;
-    height: 15vh;
+    height: 10rem;
     max-width: 85%;
     background-color: var(--secondary-color);
     margin-left: auto;
